@@ -10,7 +10,7 @@ body {
   background: url(images/100-2500x1656.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding: 5% 10%;
   display: grid;
   place-items: center;
@@ -116,9 +116,6 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    overflow: hidden;
-  }
   .card-container {
     padding: 20px;
     width: 100%;
